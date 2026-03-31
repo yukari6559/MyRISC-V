@@ -2,7 +2,7 @@
 TB_FILE := $(wildcard tb_*.vhd)
 TOP := $(basename $(TB_FILE))
 # ディレクトリ内の全.vhdファイルを自動取得
-FILES := reg.vhd alu.vhd decoder.vhd cpu_top.vhd tb_cpu_top.vhd
+FILES := reg.vhd alu.vhd decoder.vhd imem.vhd cpu_top.vhd tb_cpu_top.vhd
 STOP_TIME = 200ns
 
 # コマンド
